@@ -1,0 +1,962 @@
+[
+  {
+    "fen": "r1bqk2r/ppp1bppp/2n1pn2/3p4/6P1/1QP2N2/PP1PPPBP/RNB1K2R w KQkq - 3 6",
+    "best_move": "g4g5",
+    "evaluation": -93,
+    "side_to_move": "white",
+    "continuation": [
+      "g4g5"
+    ],
+    "difficulty": 893
+  },
+  {
+    "fen": "r1bqk2r/ppp1bppp/2n1pn2/3p4/6P1/1QP2N1B/PP1PPP1P/RNB1K2R b KQkq - 4 6",
+    "best_move": "e6e5",
+    "evaluation": 241,
+    "side_to_move": "black",
+    "continuation": [
+      "e6e5"
+    ],
+    "difficulty": 1041
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1pn2/3p4/6P1/1QP2N1B/PP1PPP1P/RNB1K2R w KQ - 5 7",
+    "best_move": "d2d4",
+    "evaluation": -167,
+    "side_to_move": "white",
+    "continuation": [
+      "d2d4"
+    ],
+    "difficulty": 967
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1pn2/3p2P1/8/1QP2N1B/PP1PPP1P/RNB1K2R b KQ - 0 7",
+    "best_move": "f6e4",
+    "evaluation": 233,
+    "side_to_move": "black",
+    "continuation": [
+      "f6e4"
+    ],
+    "difficulty": 1033
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1p3/3p2P1/4n3/1QP2N1B/PP1PPP1P/RNB1K2R w KQ - 1 8",
+    "best_move": "d2d4",
+    "evaluation": -220,
+    "side_to_move": "white",
+    "continuation": [
+      "d2d4"
+    ],
+    "difficulty": 1020
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1p3/3p2P1/4n3/1QPP1N1B/PP2PP1P/RNB1K2R b KQ - 0 8",
+    "best_move": "e4g5",
+    "evaluation": 240,
+    "side_to_move": "black",
+    "continuation": [
+      "e4g5"
+    ],
+    "difficulty": 1040
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1p3/3p2n1/8/1QPP1N1B/PP2PP1P/RNB1K2R w KQ - 0 9",
+    "best_move": "c1g5",
+    "evaluation": -247,
+    "side_to_move": "white",
+    "continuation": [
+      "c1g5"
+    ],
+    "difficulty": 1047
+  },
+  {
+    "fen": "r1bq1rk1/ppp1bppp/2n1p3/3p2N1/8/1QPP3B/PP2PP1P/RNB1K2R b KQ - 0 9",
+    "best_move": "e7g5",
+    "evaluation": 246,
+    "side_to_move": "black",
+    "continuation": [
+      "e7g5"
+    ],
+    "difficulty": 1046
+  },
+  {
+    "fen": "r1bq1rk1/ppp2ppp/2n1p3/3p2b1/8/1QPP3B/PP2PP1P/RNB1K2R w KQ - 0 10",
+    "best_move": "c1g5",
+    "evaluation": -231,
+    "side_to_move": "white",
+    "continuation": [
+      "c1g5"
+    ],
+    "difficulty": 1031
+  },
+  {
+    "fen": "r1bq1rk1/ppp2ppp/2n1p3/3p2B1/8/1QPP3B/PP2PP1P/RN2K2R b KQ - 0 10",
+    "best_move": "d8g5",
+    "evaluation": 219,
+    "side_to_move": "black",
+    "continuation": [
+      "d8g5"
+    ],
+    "difficulty": 1019
+  },
+  {
+    "fen": "r1b2rk1/ppp2ppp/2n1p3/3p2q1/8/1QPP3B/PP2PP1P/RN2K2R w KQ - 0 11",
+    "best_move": "b1d2",
+    "evaluation": -236,
+    "side_to_move": "white",
+    "continuation": [
+      "b1d2"
+    ],
+    "difficulty": 1036
+  },
+  {
+    "fen": "r1b2rk1/ppp2ppp/2n1p3/3p2q1/8/NQPP3B/PP2PP1P/R3K2R b KQ - 1 11",
+    "best_move": "g5h4",
+    "evaluation": 276,
+    "side_to_move": "black",
+    "continuation": [
+      "g5h4"
+    ],
+    "difficulty": 1076
+  },
+  {
+    "fen": "r4rk1/pppb1ppp/2n1p3/3p2q1/8/NQPP3B/PP2PP1P/R3K2R w KQ - 2 12",
+    "best_move": "b3c2",
+    "evaluation": -273,
+    "side_to_move": "white",
+    "continuation": [
+      "b3c2"
+    ],
+    "difficulty": 1073
+  },
+  {
+    "fen": "r4rk1/pppb1ppp/2n1p3/1N1p2q1/8/1QPP3B/PP2PP1P/R3K2R b KQ - 3 12",
+    "best_move": "a8c8",
+    "evaluation": 313,
+    "side_to_move": "black",
+    "continuation": [
+      "a8c8"
+    ],
+    "difficulty": 1113
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p2q1/8/1QPP3B/PP2PP1P/R3K2R w KQ - 4 13",
+    "best_move": "b5a3",
+    "evaluation": -308,
+    "side_to_move": "white",
+    "continuation": [
+      "b5a3"
+    ],
+    "difficulty": 1108
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p2q1/5P2/1QPP3B/PP2P2P/R3K2R b KQ - 0 13",
+    "best_move": "g5h4",
+    "evaluation": 507,
+    "side_to_move": "black",
+    "continuation": [
+      "g5h4"
+    ],
+    "difficulty": 1307
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/5q2/1QPP3B/PP2P2P/R3K2R w KQ - 0 14",
+    "best_move": "h1g1",
+    "evaluation": -478,
+    "side_to_move": "white",
+    "continuation": [
+      "h1g1"
+    ],
+    "difficulty": 1278
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/5q2/1QPP3B/PP2P2P/R3KR2 b Q - 1 14",
+    "best_move": "f4h4",
+    "evaluation": 594,
+    "side_to_move": "black",
+    "continuation": [
+      "f4h4"
+    ],
+    "difficulty": 1394
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/7q/1QPP3B/PP2P2P/R3KR2 w Q - 2 15",
+    "best_move": "e1d2",
+    "evaluation": -579,
+    "side_to_move": "white",
+    "continuation": [
+      "e1d2"
+    ],
+    "difficulty": 1379
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/7q/1QPP3B/PP1KP2P/R4R2 b - - 3 15",
+    "best_move": "h4h6",
+    "evaluation": 548,
+    "side_to_move": "black",
+    "continuation": [
+      "h4h6"
+    ],
+    "difficulty": 1348
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP3q/PP1KP2P/R4R2 w - - 0 16",
+    "best_move": "f1g1",
+    "evaluation": -561,
+    "side_to_move": "white",
+    "continuation": [
+      "f1g1"
+    ],
+    "difficulty": 1361
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP1R1q/PP1KP2P/R7 b - - 1 16",
+    "best_move": "h3h2",
+    "evaluation": 628,
+    "side_to_move": "black",
+    "continuation": [
+      "h3h2"
+    ],
+    "difficulty": 1428
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP1R2/PP1KP2q/R7 w - - 0 17",
+    "best_move": "a1f1",
+    "evaluation": -615,
+    "side_to_move": "white",
+    "continuation": [
+      "a1f1"
+    ],
+    "difficulty": 1415
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP1KPR1q/R7 b - - 1 17",
+    "best_move": "h2f2",
+    "evaluation": 804,
+    "side_to_move": "black",
+    "continuation": [
+      "h2f2"
+    ],
+    "difficulty": 1604
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p2q/1N1p4/8/1QPP4/PP1KPR2/R7 w - - 2 18",
+    "best_move": "d2c2",
+    "evaluation": -547,
+    "side_to_move": "white",
+    "continuation": [
+      "d2c2"
+    ],
+    "difficulty": 1347
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p2q/1N1p4/8/1QPP4/PP2PR2/R2K4 b - - 3 18",
+    "best_move": "h6h1",
+    "evaluation": 691,
+    "side_to_move": "black",
+    "continuation": [
+      "h6h1"
+    ],
+    "difficulty": 1491
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP2PR2/R2K3q w - - 4 19",
+    "best_move": "d1c2",
+    "evaluation": -710,
+    "side_to_move": "white",
+    "continuation": [
+      "d1c2"
+    ],
+    "difficulty": 1510
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP1KPR2/R6q b - - 5 19",
+    "best_move": "h1a1",
+    "evaluation": 803,
+    "side_to_move": "black",
+    "continuation": [
+      "h1a1"
+    ],
+    "difficulty": 1603
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP1KPR2/q7 w - - 0 20",
+    "best_move": "b3a4",
+    "evaluation": -810,
+    "side_to_move": "white",
+    "continuation": [
+      "b3a4"
+    ],
+    "difficulty": 1610
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP1KP3/q4R2 b - - 1 20",
+    "best_move": "a1f1",
+    "evaluation": 988,
+    "side_to_move": "black",
+    "continuation": [
+      "a1f1"
+    ],
+    "difficulty": 1788
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP1KP3/5q2 w - - 0 21",
+    "best_move": "b3a4",
+    "evaluation": -994,
+    "side_to_move": "white",
+    "continuation": [
+      "b3a4"
+    ],
+    "difficulty": 1794
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PPK1P3/5q2 b - - 1 21",
+    "best_move": "f1e2",
+    "evaluation": 1097,
+    "side_to_move": "black",
+    "continuation": [
+      "f1e2"
+    ],
+    "difficulty": 1897
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PPK1q3/8 w - - 0 22",
+    "best_move": "c2c1",
+    "evaluation": -1108,
+    "side_to_move": "white",
+    "continuation": [
+      "c2c1"
+    ],
+    "difficulty": 1908
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPP4/PP2q3/2K5 b - - 1 22",
+    "best_move": "e2e3",
+    "evaluation": 1099,
+    "side_to_move": "black",
+    "continuation": [
+      "e2e3"
+    ],
+    "difficulty": 1899
+  },
+  {
+    "fen": "2r2rk1/pppb1ppp/2n1p3/1N1p4/8/1QPq4/PP6/2K5 w - - 0 23",
+    "best_move": "c3c4",
+    "evaluation": -1072,
+    "side_to_move": "white",
+    "continuation": [
+      "c3c4"
+    ],
+    "difficulty": 1872
+  },
+  {
+    "fen": "r2qk2r/ppp2pbp/2npbnp1/3p2B1/8/2N1PN2/PPPQ1PPP/2KR1B1R b kq - 0 9",
+    "best_move": "h7h6",
+    "evaluation": 177,
+    "side_to_move": "black",
+    "continuation": [
+      "h7h6"
+    ],
+    "difficulty": 977
+  },
+  {
+    "fen": "r2q1rk1/ppp2pbp/2npbnp1/3p2B1/8/2N1PN2/PPPQ1PPP/2KR1B1R w - - 1 10",
+    "best_move": "f3d4",
+    "evaluation": -155,
+    "side_to_move": "white",
+    "continuation": [
+      "f3d4"
+    ],
+    "difficulty": 955
+  },
+  {
+    "fen": "r2q1rk1/ppp2pbp/2npbnp1/3p2B1/8/2N1PNP1/PPPQ1P1P/2KR1B1R b - - 0 10",
+    "best_move": "h7h6",
+    "evaluation": 248,
+    "side_to_move": "black",
+    "continuation": [
+      "h7h6"
+    ],
+    "difficulty": 1048
+  },
+  {
+    "fen": "r2q1rk1/ppp2pb1/2npbnpp/3p2B1/8/2N1PNP1/PPPQ1P1P/2KR1B1R w - - 0 11",
+    "best_move": "g5f6",
+    "evaluation": -255,
+    "side_to_move": "white",
+    "continuation": [
+      "g5f6"
+    ],
+    "difficulty": 1055
+  },
+  {
+    "fen": "r2q1rk1/ppp2pb1/2npbBpp/3p4/8/2N1PNP1/PPPQ1P1P/2KR1B1R b - - 0 11",
+    "best_move": "d8f6",
+    "evaluation": 273,
+    "side_to_move": "black",
+    "continuation": [
+      "d8f6"
+    ],
+    "difficulty": 1073
+  },
+  {
+    "fen": "r2q1rk1/ppp2p2/2npbbpp/3p4/8/2N1PNP1/PPPQ1P1P/2KR1B1R w - - 0 12",
+    "best_move": "c3d5",
+    "evaluation": -129,
+    "side_to_move": "white",
+    "continuation": [
+      "c3d5"
+    ],
+    "difficulty": 929
+  },
+  {
+    "fen": "r2q1rk1/ppp2p2/2npbbpp/3p4/7P/2N1PNP1/PPPQ1P2/2KR1B1R b - - 0 12",
+    "best_move": "c6e7",
+    "evaluation": 169,
+    "side_to_move": "black",
+    "continuation": [
+      "c6e7"
+    ],
+    "difficulty": 969
+  },
+  {
+    "fen": "r2qr1k1/ppp2p2/2npbbpp/3p4/7P/2N1PNP1/PPPQ1P2/2KR1B1R w - - 1 13",
+    "best_move": "c3d5",
+    "evaluation": -128,
+    "side_to_move": "white",
+    "continuation": [
+      "c3d5"
+    ],
+    "difficulty": 928
+  },
+  {
+    "fen": "r2qr1k1/ppp2p2/2npbbpp/3p3P/8/2N1PNP1/PPPQ1P2/2KR1B1R b - - 0 13",
+    "best_move": "g6g5",
+    "evaluation": 155,
+    "side_to_move": "black",
+    "continuation": [
+      "g6g5"
+    ],
+    "difficulty": 955
+  },
+  {
+    "fen": "r2qr1k1/ppp2p2/2np1bpp/3p3P/6b1/2N1PNP1/PPPQ1P2/2KR1B1R w - - 1 14",
+    "best_move": "f1e2",
+    "evaluation": -144,
+    "side_to_move": "white",
+    "continuation": [
+      "f1e2"
+    ],
+    "difficulty": 944
+  },
+  {
+    "fen": "r2qr1k1/ppp2p2/2np1bPp/3p4/6b1/2N1PNP1/PPPQ1P2/2KR1B1R b - - 0 14",
+    "best_move": "g4f3",
+    "evaluation": 230,
+    "side_to_move": "black",
+    "continuation": [
+      "g4f3"
+    ],
+    "difficulty": 1030
+  },
+  {
+    "fen": "r2qr1k1/ppp5/2np1bpR/3p4/8/2N1PbP1/PPPQ1P2/2KR1B2 w - - 0 16",
+    "best_move": "f1e2",
+    "evaluation": -271,
+    "side_to_move": "white",
+    "continuation": [
+      "f1e2"
+    ],
+    "difficulty": 1071
+  },
+  {
+    "fen": "r2qr1k1/ppp5/2np1bR1/3p4/8/2N1PbP1/PPPQ1P2/2KR1B2 b - - 0 16",
+    "best_move": "g8f7",
+    "evaluation": 281,
+    "side_to_move": "black",
+    "continuation": [
+      "g8f7"
+    ],
+    "difficulty": 1081
+  },
+  {
+    "fen": "r2qr1k1/ppp3b1/2np2R1/3p4/8/2N1PbP1/PPPQ1P2/2KR1B2 w - - 1 17",
+    "best_move": "f1e2",
+    "evaluation": -202,
+    "side_to_move": "white",
+    "continuation": [
+      "f1e2"
+    ],
+    "difficulty": 1002
+  },
+  {
+    "fen": "r2qr1k1/ppp3b1/2np2R1/3p4/8/2N1PbP1/PPPQ1P2/2K1RB2 b - - 2 17",
+    "best_move": "c6e5",
+    "evaluation": 315,
+    "side_to_move": "black",
+    "continuation": [
+      "c6e5"
+    ],
+    "difficulty": 1115
+  },
+  {
+    "fen": "r2qr1k1/ppp3b1/3p2R1/3pn3/8/2N1PbP1/PPPQ1P2/2K1RB2 w - - 3 18",
+    "best_move": "g6g7",
+    "evaluation": -303,
+    "side_to_move": "white",
+    "continuation": [
+      "g6g7"
+    ],
+    "difficulty": 1103
+  },
+  {
+    "fen": "r2qr1k1/ppp3R1/3p4/3pn3/8/2N1PbP1/PPPQ1P2/2K1RB2 b - - 0 18",
+    "best_move": "g8g7",
+    "evaluation": 319,
+    "side_to_move": "black",
+    "continuation": [
+      "g8g7"
+    ],
+    "difficulty": 1119
+  },
+  {
+    "fen": "r2qr3/ppp3k1/3p4/3pn3/8/2N1PbP1/PPPQ1P2/2K1RB2 w - - 0 19",
+    "best_move": "c3e2",
+    "evaluation": -336,
+    "side_to_move": "white",
+    "continuation": [
+      "c3e2"
+    ],
+    "difficulty": 1136
+  },
+  {
+    "fen": "r2qr3/ppp3k1/3p4/3pn3/8/2N1PbP1/PPPQBP2/2K1R3 b - - 1 19",
+    "best_move": "d8f6",
+    "evaluation": 343,
+    "side_to_move": "black",
+    "continuation": [
+      "d8f6"
+    ],
+    "difficulty": 1143
+  },
+  {
+    "fen": "r2qr3/ppp3k1/3p4/3pn3/8/2N1P1P1/PPPQbP2/2K1R3 w - - 0 20",
+    "best_move": "d2e2",
+    "evaluation": -286,
+    "side_to_move": "white",
+    "continuation": [
+      "d2e2"
+    ],
+    "difficulty": 1086
+  },
+  {
+    "fen": "r2qr3/ppp3k1/3p4/3pn3/8/2N1P1P1/PPP1QP2/2K1R3 b - - 0 20",
+    "best_move": "e8h8",
+    "evaluation": 277,
+    "side_to_move": "black",
+    "continuation": [
+      "e8h8"
+    ],
+    "difficulty": 1077
+  },
+  {
+    "fen": "r2R4/ppp3Q1/3pk3/3p4/2n1r3/2N1P1P1/PPP2P2/2K5 b - - 0 25",
+    "best_move": "a8d8",
+    "evaluation": -569,
+    "side_to_move": "black",
+    "continuation": [
+      "a8d8"
+    ],
+    "difficulty": 1369
+  },
+  {
+    "fen": "2rR4/ppp5/3pk1Q1/3p4/2n1r3/2N1P1P1/PPP2P2/2K5 b - - 2 26",
+    "best_move": "e6e7",
+    "evaluation": -923,
+    "side_to_move": "black",
+    "continuation": [
+      "e6e7"
+    ],
+    "difficulty": 1723
+  },
+  {
+    "fen": "2rR4/ppp1k3/3p2Q1/3p4/2n1r3/2N1P1P1/PPP2P2/2K5 w - - 3 27",
+    "best_move": "g6g5",
+    "evaluation": 1201,
+    "side_to_move": "white",
+    "continuation": [
+      "g6g5"
+    ],
+    "difficulty": 2001
+  },
+  {
+    "fen": "2r1R3/ppp1k3/3p2Q1/3p4/2n1r3/2N1P1P1/PPP2P2/2K5 b - - 4 27",
+    "best_move": "c8e8",
+    "evaluation": -507,
+    "side_to_move": "black",
+    "continuation": [
+      "c8e8"
+    ],
+    "difficulty": 1307
+  },
+  {
+    "fen": "2r1R3/pppk4/3p2Q1/3p4/2n1r3/2N1P1P1/PPP2P2/2K5 w - - 5 28",
+    "best_move": "g6f7",
+    "evaluation": 1070,
+    "side_to_move": "white",
+    "continuation": [
+      "g6f7"
+    ],
+    "difficulty": 1870
+  },
+  {
+    "fen": "2r5/pppk4/3p2Q1/3p4/2n1R3/2N1P1P1/PPP2P2/2K5 b - - 0 28",
+    "best_move": "c4e5",
+    "evaluation": -777,
+    "side_to_move": "black",
+    "continuation": [
+      "c4e5"
+    ],
+    "difficulty": 1577
+  },
+  {
+    "fen": "2r5/pppk4/3p2Q1/8/2n1p3/2N1P1P1/PPP2P2/2K5 w - - 0 29",
+    "best_move": "g6f7",
+    "evaluation": 834,
+    "side_to_move": "white",
+    "continuation": [
+      "g6f7"
+    ],
+    "difficulty": 1634
+  },
+  {
+    "fen": "2r5/pppk4/3p2Q1/3N4/2n1p3/4P1P1/PPP2P2/2K5 b - - 1 29",
+    "best_move": "b7b5",
+    "evaluation": -699,
+    "side_to_move": "black",
+    "continuation": [
+      "b7b5"
+    ],
+    "difficulty": 1499
+  },
+  {
+    "fen": "2r5/ppp5/2kp2Q1/3N4/2n1p3/4P1P1/PPP2P2/2K5 w - - 2 30",
+    "best_move": "g6e4",
+    "evaluation": 723,
+    "side_to_move": "white",
+    "continuation": [
+      "g6e4"
+    ],
+    "difficulty": 1523
+  },
+  {
+    "fen": "2r5/ppp5/2kp2Q1/8/1Nn1p3/4P1P1/PPP2P2/2K5 b - - 3 30",
+    "best_move": "c6b6",
+    "evaluation": -677,
+    "side_to_move": "black",
+    "continuation": [
+      "c6b6"
+    ],
+    "difficulty": 1477
+  },
+  {
+    "fen": "2r5/ppp5/3p2Q1/1k6/1Nn1p3/4P1P1/PPP2P2/2K5 w - - 4 31",
+    "best_move": "g6f5",
+    "evaluation": 731,
+    "side_to_move": "white",
+    "continuation": [
+      "g6f5"
+    ],
+    "difficulty": 1531
+  },
+  {
+    "fen": "2r5/ppp5/3p2Q1/1k6/1Nn1p3/2P1P1P1/PP3P2/2K5 b - - 0 31",
+    "best_move": "c7c5",
+    "evaluation": -626,
+    "side_to_move": "black",
+    "continuation": [
+      "c7c5"
+    ],
+    "difficulty": 1426
+  },
+  {
+    "fen": "2r5/pp6/3p2Q1/1kp5/1Nn1p3/2P1P1P1/PP3P2/2K5 w - - 0 32",
+    "best_move": "b4d5",
+    "evaluation": 620,
+    "side_to_move": "white",
+    "continuation": [
+      "b4d5"
+    ],
+    "difficulty": 1420
+  },
+  {
+    "fen": "2r5/pp6/3p2Q1/1kp5/1Nn1p3/1PP1P1P1/P4P2/2K5 b - - 0 32",
+    "best_move": "c5b4",
+    "evaluation": -571,
+    "side_to_move": "black",
+    "continuation": [
+      "c5b4"
+    ],
+    "difficulty": 1371
+  },
+  {
+    "fen": "2r5/pp6/3p2Q1/1kp5/1N2p3/nPP1P1P1/P4P2/2K5 w - - 1 33",
+    "best_move": "g6e4",
+    "evaluation": 737,
+    "side_to_move": "white",
+    "continuation": [
+      "g6e4"
+    ],
+    "difficulty": 1537
+  },
+  {
+    "fen": "2r5/pp6/3p2Q1/1kp5/1NP1p3/nP2P1P1/P4P2/2K5 b - - 0 33",
+    "best_move": "b5b4",
+    "evaluation": -627,
+    "side_to_move": "black",
+    "continuation": [
+      "b5b4"
+    ],
+    "difficulty": 1427
+  },
+  {
+    "fen": "2r5/pp6/3p2Q1/2p5/1kP1p3/nP2P1P1/P4P2/2K5 w - - 0 34",
+    "best_move": "g6d6",
+    "evaluation": 615,
+    "side_to_move": "white",
+    "continuation": [
+      "g6d6"
+    ],
+    "difficulty": 1415
+  },
+  {
+    "fen": "2r5/pp6/3p4/2p5/1kP1Q3/nP2P1P1/P4P2/2K5 b - - 0 34",
+    "best_move": "b7b5",
+    "evaluation": -555,
+    "side_to_move": "black",
+    "continuation": [
+      "b7b5"
+    ],
+    "difficulty": 1355
+  },
+  {
+    "fen": "2r5/pp6/3p4/2p5/2P1Q3/nPk1P1P1/P4P2/2K5 w - - 1 35",
+    "best_move": "e4d5",
+    "evaluation": 674,
+    "side_to_move": "white",
+    "continuation": [
+      "e4d5"
+    ],
+    "difficulty": 1474
+  },
+  {
+    "fen": "2r5/pQ6/3p4/2p5/2P5/nPk1P1P1/P4P2/2K5 b - - 0 35",
+    "best_move": "a3c2",
+    "evaluation": -730,
+    "side_to_move": "black",
+    "continuation": [
+      "a3c2"
+    ],
+    "difficulty": 1530
+  },
+  {
+    "fen": "2r5/pQ6/3p4/2p5/2P5/1Pk1P1P1/P1n2P2/2K5 w - - 1 36",
+    "best_move": "b7c8",
+    "evaluation": 753,
+    "side_to_move": "white",
+    "continuation": [
+      "b7c8"
+    ],
+    "difficulty": 1553
+  },
+  {
+    "fen": "2r5/p7/3p4/2p5/2P1Q3/1Pk1P1P1/P1n2P2/2K5 b - - 2 36",
+    "best_move": "c2b4",
+    "evaluation": -423,
+    "side_to_move": "black",
+    "continuation": [
+      "c2b4"
+    ],
+    "difficulty": 1223
+  },
+  {
+    "fen": "2r5/p7/3p4/2p5/2P1Q3/1Pk1P1P1/P4P2/2K1n3 w - - 3 37",
+    "best_move": "c1d1",
+    "evaluation": 578,
+    "side_to_move": "white",
+    "continuation": [
+      "c1d1"
+    ],
+    "difficulty": 1378
+  },
+  {
+    "fen": "2r5/p7/3pQ3/2p5/2P5/1Pk1P1P1/P4P2/2K1n3 b - - 4 37",
+    "best_move": "c8f8",
+    "evaluation": -510,
+    "side_to_move": "black",
+    "continuation": [
+      "c8f8"
+    ],
+    "difficulty": 1310
+  },
+  {
+    "fen": "2r5/p7/3pQ3/2p5/2P5/1PknP1P1/P4P2/2K5 w - - 5 38",
+    "best_move": "c1d1",
+    "evaluation": 526,
+    "side_to_move": "white",
+    "continuation": [
+      "c1d1"
+    ],
+    "difficulty": 1326
+  },
+  {
+    "fen": "2r5/p7/3pQ3/2p5/2P5/1PknP1P1/P4P2/3K4 b - - 6 38",
+    "best_move": "c8f8",
+    "evaluation": -563,
+    "side_to_move": "black",
+    "continuation": [
+      "c8f8"
+    ],
+    "difficulty": 1363
+  },
+  {
+    "fen": "r1b1k2r/ppp5/n2p3p/3Ppq2/6p1/3P2P1/PPP2NBP/R2QK2R w KQkq - 0 17",
+    "best_move": "d3d4",
+    "evaluation": 176,
+    "side_to_move": "white",
+    "continuation": [
+      "d3d4"
+    ],
+    "difficulty": 976
+  },
+  {
+    "fen": "r1b1k2r/ppp5/n2p2qp/3Pp3/4N1p1/3P2P1/PPP3BP/R2QKR2 w Qkq - 4 19",
+    "best_move": "f1f6",
+    "evaluation": 147,
+    "side_to_move": "white",
+    "continuation": [
+      "f1f6"
+    ],
+    "difficulty": 947
+  },
+  {
+    "fen": "r1b1k2r/ppp5/n2p1Rqp/3Pp3/4N1p1/3P2P1/PPP3BP/R2QK3 b Qkq - 5 19",
+    "best_move": "g6g7",
+    "evaluation": -174,
+    "side_to_move": "black",
+    "continuation": [
+      "g6g7"
+    ],
+    "difficulty": 974
+  },
+  {
+    "fen": "r1b1k2r/ppp3q1/n2p1R1p/3Pp3/4N1p1/3P2P1/PPP3BP/R2QK3 w Qkq - 6 20",
+    "best_move": "d3d4",
+    "evaluation": 154,
+    "side_to_move": "white",
+    "continuation": [
+      "d3d4"
+    ],
+    "difficulty": 954
+  },
+  {
+    "fen": "r1b1k2r/ppp3q1/n2p1R1p/3Pp3/3PN1p1/6P1/PPP3BP/R2QK3 b Qkq - 0 20",
+    "best_move": "h8f8",
+    "evaluation": -186,
+    "side_to_move": "black",
+    "continuation": [
+      "h8f8"
+    ],
+    "difficulty": 986
+  },
+  {
+    "fen": "r1b1k2r/pp4q1/n1pp1R1p/3Pp3/3PN1p1/6P1/PPP3BP/R2QK3 w Qkq - 0 21",
+    "best_move": "e4d6",
+    "evaluation": 561,
+    "side_to_move": "white",
+    "continuation": [
+      "e4d6"
+    ],
+    "difficulty": 1361
+  },
+  {
+    "fen": "r1b1k2r/pp4q1/n1pp1R1p/3PP3/4N1p1/6P1/PPP3BP/R2QK3 b Qkq - 0 21",
+    "best_move": "d6e5",
+    "evaluation": -524,
+    "side_to_move": "black",
+    "continuation": [
+      "d6e5"
+    ],
+    "difficulty": 1324
+  },
+  {
+    "fen": "r1b1k2r/pp4q1/2pp1R1p/2nPP3/4N1p1/6P1/PPP3BP/R2QK3 w Qkq - 1 22",
+    "best_move": "e4d6",
+    "evaluation": 721,
+    "side_to_move": "white",
+    "continuation": [
+      "e4d6"
+    ],
+    "difficulty": 1521
+  },
+  {
+    "fen": "r1b1k2r/pp4q1/2pN1R1p/2nPP3/6p1/6P1/PPP3BP/R2QK3 b Qkq - 0 22",
+    "best_move": "e8e7",
+    "evaluation": -761,
+    "side_to_move": "black",
+    "continuation": [
+      "e8e7"
+    ],
+    "difficulty": 1561
+  },
+  {
+    "fen": "r1bk3r/pp4q1/2pN1R1p/2nPP3/6p1/6P1/PPP3BP/R2QK3 w Q - 1 23",
+    "best_move": "d5c6",
+    "evaluation": 776,
+    "side_to_move": "white",
+    "continuation": [
+      "d5c6"
+    ],
+    "difficulty": 1576
+  },
+  {
+    "fen": "r1Nk3r/pp4q1/2p2R1p/2nPP3/6p1/6P1/PPP3BP/R2QK3 b Q - 0 23",
+    "best_move": "d8c7",
+    "evaluation": -604,
+    "side_to_move": "black",
+    "continuation": [
+      "d8c7"
+    ],
+    "difficulty": 1404
+  },
+  {
+    "fen": "r1k4r/pp4q1/2p2R1p/2nPP3/6p1/6P1/PPP3BP/R2QK3 w Q - 0 24",
+    "best_move": "d5c6",
+    "evaluation": 625,
+    "side_to_move": "white",
+    "continuation": [
+      "d5c6"
+    ],
+    "difficulty": 1425
+  },
+  {
+    "fen": "r1k4r/pp4q1/2pR3p/2nPP3/6p1/6P1/PPP3BP/R2QK3 b Q - 1 24",
+    "best_move": "g7e5",
+    "evaluation": 296,
+    "side_to_move": "black",
+    "continuation": [
+      "g7e5"
+    ],
+    "difficulty": 1096
+  },
+  {
+    "fen": "r6r/ppk5/2pR3p/2nPP3/6q1/6P1/PPP3BP/R3K3 w Q - 0 26",
+    "best_move": "d5c6",
+    "evaluation": -530,
+    "side_to_move": "white",
+    "continuation": [
+      "d5c6"
+    ],
+    "difficulty": 1330
+  }
+]
