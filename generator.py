@@ -28,41 +28,43 @@ class PuzzleGenerator:
     def _analyze_games(self, game):
         board = game.board()
         puzzles = []
-        prev_eval = 0
-        
-        # print(game.mainline_moves())
-        
+
         for move in game.mainline_moves():
+            # Eval BEFORE move
+            fen_before = board.fen()
+            eval_before = self.eval.evaluate(fen_before)
+
             board.push(move)
-            
-            fen = board.fen()
-            
-            
-            current_eval = self.eval.evaluate(fen)
-            
-            if current_eval['type'] != 'cp':
+
+            # Eval AFTER move
+            fen_after = board.fen()
+            eval_after = self.eval.evaluate(fen_after)
+
+            # Only handle centipawn evals for now
+            if eval_before["type"] != "cp" or eval_after["type"] != "cp":
                 continue
-            
-            
-            value = current_eval['value']
-            
-            if abs(value - prev_eval) > THRESHOLD:
-                best = self.eval.best_move(fen)
-                
-                # print(f"value {value}")
+
+            v1 = eval_before["value"]
+            v2 = eval_after["value"]
+
+            swing = abs(v2 - v1)
+
+            if swing > THRESHOLD:
+                best = self.eval.best_move(fen_after)
+
                 puzzle = Puzzle(
-                    fen = fen, 
-                    best_move= best,
-                    evaluation= value, 
+                    fen=fen_after,
+                    best_move=best,
+                    evaluation=v2,
                     side_to_move="white" if board.turn else "black",
                     continuation=[best],
-                    difficulty= min(2400, max(400, 800 + abs(value)))
+                    difficulty=min(2400, max(400, 800 + swing))
                 )
+
                 puzzles.append(puzzle)
-                
-        
-            prev_eval = value
-            
+
+                print(f"Puzzle found | swing={swing} | move={move} | best={best}")
+
         return puzzles
-    
-    
+        
+        
